@@ -179,6 +179,7 @@ const PersonalInfoForm = () => {
         <textarea
           name="about"
           rows={3}
+          cols={50}
           placeholder="Write a few sentences about yourself"
           className="w-full border border-gray-300 p-2 placeholder-gray-500 focus:outline-none rounded-md"
           defaultValue={''}
